@@ -30,3 +30,12 @@ The above command creates a new jar file in `build/libs`folder
 java -jar C:\Users\saisu\OneDrive\Desktop\2026-SST-LEARN\GradleProjectUsingCli\app\build\libs\app-1.0-SNAPSHOT.jar
 ```
 The above command will execute your code
+
+```declarative
+gradlew shadowJar
+```
+```
+java -jar app/build/libs/app-1.0-SNAPSHOT-all.jar
+
+```
+The above command will build a "Fat JAR" (or Shadow JAR) that packages all your dependencies together into a single file
