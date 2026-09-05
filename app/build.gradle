@@ -15,7 +15,7 @@ plugins {
 group = 'com.example'
 version = '1.0-SNAPSHOT'
 repositories {
-    // Use Maven Central for resolving dependencies.
+    // Use Maven Central for resolving dependencie s.
     mavenCentral()
 }
 
@@ -27,6 +27,8 @@ dependencies {
     implementation libs.guava
 
     implementation("com.squareup.okhttp3:okhttp:5.5.0")
+    implementation 'com.squareup.retrofit2:retrofit:2.11.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.11.0'
 }
 
 jar {
